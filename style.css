@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+    background: url('bulding.jpg') center center;
+}
+.layer{
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+}
+.title{
+    color: #fff;
+    font-size: 22px;
+    margin: 5px 0;
+}
+.remaing-date-time{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    
+}
+.remaing-date-time span{
+    margin: 0 1.2rem;
+}
+.remaing-date-time span h2{
+    background: #fff;
+    width: 80px;
+    border-radius: 4px;
+    text-align: center;
+}
+.remaing-date-time span p{
+    color: #fff;
+    margin-top: 6px;
+    text-align: center;
+    font-size: 14px;
+}
