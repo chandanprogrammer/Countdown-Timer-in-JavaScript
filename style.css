@@ -22,7 +22,7 @@
 }
 .title{
     color: #fff;
-    font-size: 22px;
+    font-size: 1.5rem;
     margin: 5px 0;
 }
 .remaing-date-time{
@@ -33,11 +33,11 @@
     
 }
 .remaing-date-time span{
-    margin: 0 1.2rem;
+    margin: 0 0.8rem;
 }
 .remaing-date-time span h2{
     background: #fff;
-    width: 80px;
+    width: 4.5rem;
     border-radius: 4px;
     text-align: center;
 }
@@ -45,5 +45,5 @@
     color: #fff;
     margin-top: 6px;
     text-align: center;
-    font-size: 14px;
+    font-size: 0.8rem;
 }
